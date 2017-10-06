@@ -1,0 +1,1 @@
+document.write("假设这是很多重要的Javascript代码的执行结果");

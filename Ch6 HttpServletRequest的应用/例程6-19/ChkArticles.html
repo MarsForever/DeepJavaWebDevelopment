@@ -1,0 +1,34 @@
+<form action="servlet/DelArticleServlet" method="POST">
+	<table border=1 width="100%">
+	<tr>
+		<td>选择</td><td>标题</td><td>作者</td><td>日期</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="article_id" value="1"></td>
+		<td><a href="servlet/viewArticle?article_id=1">咨询Java培训</a></td>
+		<td>张强</td>
+		<td>2005-1-3</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="article_id" value="2"></td>
+		<td><a href="servlet/viewArticle?article_id=2">购买Java教程</a></td>
+		<td>王东</td>
+		<td>2005-1-3</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="article_id" value="3"></td>
+		<td><a href="servlet/viewArticle?article_id=3">培训合作</a></td>
+		<td>王江明</td>
+		<td>2005-1-3</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="article_id" value="4"></td>
+		<td><a href="servlet/viewArticle?article_id=4">技术探讨</a></td>
+		<td>李宁</td>
+		<td>2005-1-3</td>
+	</tr>
+	</table>
+	<input type="checkbox" name="selAll">全选
+	<input type="submit" name="del" value="删除到垃圾桶">
+	<input type="submit" name="del" value="彻底删除">
+</form>

@@ -1,0 +1,22 @@
+<h1>测试表单重复提交的页面</h1>
+<script>
+	var isCommitted = false;
+	function checkPost()
+	{
+		if(!isCommitted)
+		{
+			isCommitted = true;
+			return true;
+		}
+		else
+		{
+			alert("不能重复提交表单"); 
+			return false;
+		}
+	}
+</script>
+<form action="servlet/RepeateFormServlet" method="POST" 
+		onsubmit="return checkPost()">
+	留言内容：<textarea name="note"></textarea><br>
+	<input type="submit" value="提交"> 
+</form>

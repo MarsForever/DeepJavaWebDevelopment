@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<?xml-stylesheet type="text/css" href="book.css"?>
+<bookstore>
+	<book>
+		<bookname>Java就业培训教程</bookname>
+		<author>张孝祥</author>
+		<price>39元</price>
+	</book>
+</bookstore>
